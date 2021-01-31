@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header, nav, main, article, section, aside, footer {
+  display: block;
+}
+
+main {
+  border: 2px solid #21f3f3;
+  border-radius: 10px;
+  width: 350px;
+  margin: 100px auto 0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+main .value-section, main .binary, main .octal, main .hex {
+  margin-bottom: 10px;
+}
+
+main .value-section label, main .binary label, main .octal label, main .hex label {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+main .value-section input, main .binary input, main .octal input, main .hex input {
+  width: 100px;
+  padding: 2px 5px;
+  outline: 0;
+  border: 2px solid black;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+main .value-section input:focus, main .binary input:focus, main .octal input:focus, main .hex input:focus {
+  border: 2px solid #b10ab1;
+}
+
+main .binary input, main .octal input, main .hex input {
+  width: 150px;
+}
+
+main .binary input:focus, main .octal input:focus, main .hex input:focus {
+  border: 2px solid black;
+}
+
+main .buttons button {
+  padding: 3px;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0 5px 10px;
+}
+
+main .display span {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+main .display input {
+  padding: 5px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decimal Converter</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+  <main>
+    <h1>Number System Converter</h1>
+    
+    <div class="value-section">
+      <label for="value">Enter Number:</label>
+      <input type="text" id="value" name="value" required>
+    </div>
+
+    <div class="buttons">
+      <button type="button" id="converter">Convert</button>
+      <button type="button" id="clear">Clear</button>
+    </div>
+
+    <div class="binary">
+      <label for="value">to Binary:</label>
+      <input type="text" id="binary" name="binary" readonly>
+    </div>
+
+    <div class="octal">
+      <label for="value">to Octal:</label>
+      <input type="text" id="octal" name="octal" readonly>
+    </div>
+
+    <div class="hex">
+      <label for="value">to Hexadecimal:</label>
+      <input type="text" id="hex" name="hex" readonly>
+    </div>
+      
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
